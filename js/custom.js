@@ -7,16 +7,3 @@ function getYear() {
 
 getYear();
 
-// nice select
-$(document).ready(function () {
-    $('select').niceSelect();
-});
-
-// date picker
-$(function () {
-    $("#inputDate").datepicker({
-        autoclose: true,
-        todayHighlight: true
-    }).datepicker('update', new Date());
-});
-
